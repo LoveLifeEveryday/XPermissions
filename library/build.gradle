@@ -2,6 +2,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.LoveLifeEveryday'
 android {
     compileSdkVersion 28
 
@@ -32,22 +34,4 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-}
-apply plugin: 'com.novoda.bintray-release'
-buildscript {
-    repositories{
-        jcenter()
-    }
-    dependencies{
-        classpath 'com.novoda:bintray-release:0.9.2'
-    }
-}
-
-publish{
-    userOrg='xcynice'
-    groupId='com.xpermission.xcynice'
-    artifactId='xpermission'
-    publishVersion='1.0.0'
-    desc='Make Android runtime permission request easy.'
-    website='https://github.com/LoveLifeEveryday/XPermissions'
 }
