@@ -6,7 +6,7 @@
 
 An easy to use open source library using in the kotlin
 
-一个基于 `Kotlin` 的简单易用的权限申请库
+这是一个基于 `Kotlin` 的简单易用的权限申请库
 
 # How to Use
 
@@ -38,7 +38,7 @@ XPermission.request(
     this,
     // 这里的权限可以是单个或者多个，权限之间用逗号『，』隔开即可
     Manifest.permission.XXX1,
-    Manifest.permission.XXX2
+    Manifest.permission.XXX2,
     // allGranted 是一个 boolean 类型的变量，若为 true ,则所有权限申请通过
     // deniedList 是一个 List 类型的变量，表示用户拒绝权限列表
 ) { allGranted, deniedList ->
@@ -50,13 +50,11 @@ XPermission.request(
 }
 ```
 
-
-
 ## Demo
 
 > 测试用的 `Demo`
 
-- `Github`：
+- `Github`：https://github.com/LoveLifeEveryday/TestXPermission
 
 ## Author
 
