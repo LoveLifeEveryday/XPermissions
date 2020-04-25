@@ -56,6 +56,12 @@ XPermission.request(
 
 - `Github`：https://github.com/LoveLifeEveryday/TestXPermission
 
+## How  to create this
+
+为了方便读者们了解**编写『请求框架』以及发布到 `JitPack` 的一系列流程**，笔者特意写了一篇文章来阐述：
+
+[带你封装自己的『权限管理』框架](https://juejin.im/post/5ea3a2dff265da47bc592854)
+
 ## Author
 
 👤 **许朋友爱玩**

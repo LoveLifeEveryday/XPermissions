@@ -14,8 +14,8 @@ typealias PermissionCallback = (Boolean, List<String>) -> Unit
 
 class InvisibleFragment : Fragment() {
 
-
     private var callback: PermissionCallback? = null
+
     fun requestNow(cb: PermissionCallback, vararg permission: String) {
         callback = cb
         requestPermissions(permission, 1)
